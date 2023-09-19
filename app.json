@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "Backend express app",
   "env": {
+    "NODE_ENV": {
+      "description": "env",
+      "required": true
+    },
     "PORT": {
       "description": "Port to deploy",
       "required": true
