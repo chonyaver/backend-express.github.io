@@ -1,0 +1,18 @@
+{
+  "name": "backend-express",
+  "version": "0.0.0",
+  "description": "Backend express app",
+  "env": {
+    "PORT": {
+      "description": "Port to deploy",
+      "required": true
+    },
+    "HOST": {
+      "description": "Host of application",
+      "required": true
+    },
+    "BASE_URL": {
+      "description": "App url without slash"
+    }
+  }
+}
